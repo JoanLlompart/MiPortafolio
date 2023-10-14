@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>Página web con secciones</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="ProcesarFormulari.js"></script>
+
 </head>
 
 <body>
@@ -48,8 +50,18 @@
 
     <!-- Contactame-->
     <section id="contactame">
-        <h1>Contacto</h1>
-        <p>Este es el contenido de la sección contacto</p>
+        <h1>Contactame</h1>
+        <form id="formulari-contacte" action="#" method="post" name="formulari">
+            <label for="email" >Escribe aqui tu email </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="movito">Interes de contactar</label>
+            <textarea type="motivo" name="motivo" rows="4" required>
+                Escribe aqui
+            </textarea>
+            <button type="submit">Enviar</button>
+        </form>
+
     </section>
 
     <!-- Portofolio-->
