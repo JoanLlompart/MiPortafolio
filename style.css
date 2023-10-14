@@ -21,6 +21,8 @@ img {
     margin-top: 3%;
     margin-block: 5%;
 }
+
+
 h1 {
     color: #000;
     text-align: center;
@@ -32,6 +34,35 @@ h1 {
     line-height: normal;
     text-decoration: underline;
     
+}
+.contactame{
+    background-color: #EAFFDA;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.formulari-contact {
+    display: flex;
+    background-color:#EAFFDA;
+    align-items: center;
+    text-align: center;
+
+}
+#formulari-contacte {
+    max-width: 400px;
+    width: 70%;
+}
+
+#formulari-contacte label {
+    display: block;
+}
+
+#formulari-contacte label, #formulari-contacte textarea, #formulari-contacte button {
+    margin: 10px 10;
 }
 
 nav ul {
