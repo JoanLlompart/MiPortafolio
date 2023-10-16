@@ -1,0 +1,30 @@
+.capçalera {
+    display: flex;
+    background-color: blue;
+    align-items: center;
+}
+.capçalera img {
+
+    flex: 0;
+}
+.capçalera h1 {
+    flex: 1;
+    text-align: center;
+}
+
+.botons-horizontals {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center; /* Alinea los elementos en el centro horizontalmente */
+
+}
+
+.botons-horizontals li{
+    margin-right: 10px; /* Espacio entre los elementos de la lista si lo deseas */
+
+}
+.botonera-horizontals a {
+    display: block;
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+}
