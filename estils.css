@@ -114,13 +114,42 @@ section#redes {
 .contactame {
     background-color: #EAFFDA;
     width: 90%;
-    height: auto;
+    height: 100%;
     margin: 80px auto;
     border-radius:20px;
     padding-top: 30px;
     padding-bottom:20px;
     padding-left: 30px;
 }
+.formulari-contact {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    
+}
+.form-group {
+    margin-bottom: 15px; /* Margen inferior entre elementos del formulario */
+}
+
+label {
+    display: block; /* Coloca las etiquetas en una línea separada */
+    margin-bottom: 5px; /* Margen inferior para las etiquetas */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; /* Margen inferior para campos de entrada y área de texto */
+    border: 1px solid #ccc; /* Borde para campos de entrada y área de texto */
+    border-radius: 4px;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+/*
 .contactame input {
     font-family: 'Roboto', sans-serif;
     width:450px;
@@ -133,3 +162,4 @@ section#redes {
     padding:1px;
     
 }
+*/
