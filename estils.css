@@ -29,6 +29,21 @@
 .botonera-horizontals a {
     display: block;
     text-decoration: none; /* Quita el subrayado de los enlaces */
+    margin: auto;
+}
+.botonsPrincipalsIndex {
+    /* Disseny de els botons
+    */
+    background-color:#EAFFDA ;
+    border-radius: 10px;
+    border: 1px solid;
+    
+
+    
+}
+.botonsPrincipalsIndex:hover{
+    background-color: #67b32d;
+    border: 1px solid;
 }
 
 .bio h1 {
