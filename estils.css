@@ -82,14 +82,31 @@ h1{
     padding: 30px;
 
 }
-.bio p{
+.text li{
     display: list-item;
     font-size: 20px;
     text-align:justify right;
-    line-height: 20px;    
+    line-height: 20px;
+    padding-left: 10%; 
+    color:purple;
+    
 }
 
-
+section#redes {
+    width: 90%;
+    margin: 0 auto;
+}
+.redes {
+    display: flex;
+    justify-content: space-between; /*Afegeix espais entre elements */
+    align-items: center;
+    margin-bottom: 30px;
+}
+.logoXarxes {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
 
 /* Contactame formulari*/
 .contactame {
