@@ -5,58 +5,61 @@
     <meta charset="UTF-8">
     <title>Página web con secciones</title>
     <script src="ProcesarFormulari.js"></script>
-    
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="estils.css">
-        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <div class="capçalera">
-        <img src="/imagenes/fotoCV.jpg" alt="Foto propia" width="100px" height=auto >
+        <img src="/imagenes/fotoCV.jpg" alt="Foto propia" width="100px" height=auto>
         <h1>Joan Llompart Socias</h1>
     </div>
 
     <nav>
         <ul class="botons-horizontals">
-            <li><a href="#inicio">
+            <li><a href="#Bio">
                     <button type="button" class="botonsPrincipalsIndex">Bio</button>
                 </a></li>
             <li><a href="#redes">
-                <button type="button" class="botonsPrincipalsIndex"> Redes</button>
-            </a></li>
+                    <button type="button" class="botonsPrincipalsIndex"> Redes</button>
+                </a></li>
             <li><a href="#contactame">
-                <button type="button" class="botonsPrincipalsIndex">Contactame</button>
-            </a></li>
+                    <button type="button" class="botonsPrincipalsIndex">Contactame</button>
+                </a></li>
             <li><a href="#portofolio">
-                <button type="button" class="botonsPrincipalsIndex">Portofolio</button>
-            </a></li>
+                    <button type="button" class="botonsPrincipalsIndex">Portofolio</button>
+                </a></li>
             <li><a href="#cv">
-                <button type="button" class="botonsPrincipalsIndex">CV</button>
-            </a></li>
+                    <button type="button" class="botonsPrincipalsIndex">CV</button>
+                </a></li>
 
         </ul>
     </nav>
 
     <!-- Inicio-->
-    <section id="inicio">
-        <h1>Inicio</h1>
+    <section id="Bio" class="bio">
+        <h1>Biografia</h1>
         <p>Este es el contenido de la sección de inicio</p>
     </section>
 
     <!-- Redes-->
     <section id="redes">
         <h1>Redes</h1>
-        
+
 
     </section>
 
 
-        <h1>Contactame</h1>
+    <h1>Contactame</h1>
     <!-- Contactame-->
     <section id="contactame" class="contactame">
         <form id="formulari-contacte" class="formulari-contact" action="#" method="post" name="formulari">
-            <label for="email" >Escribe aqui tu email</label>
+            <label for="email">Escribe aqui tu email</label>
             <input type="email" id="email" name="email" required>
 
             <label for="movito">Interes de contactar</label>
@@ -74,11 +77,11 @@
         <p>Este es el contenido de la sección contacto</p>
     </section>
 
-        <!-- CV-->
-        <section id="cv">
-            <h1>Contacto</h1>
-            <p>Este es el contenido de la sección contacto</p>
-        </section>
+    <!-- CV-->
+    <section id="cv">
+        <h1>Contacto</h1>
+        <p>Este es el contenido de la sección contacto</p>
+    </section>
 
 </body>
 
