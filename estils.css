@@ -61,12 +61,21 @@
     cursor: pointer;    
 
 }
+.bio {
+    font-family: 'Roboto', sans-serif;
+    background-color: antiquewhite;
+    display: flexbox;
+
+}
 
 .bio h1 {
     text-align: center;
     flex: 0;
     padding: 30px;
-    font-family: 'Roboto', sans-serif;
-    background-color: antiquewhite;
+
+}
+.bio p{
+    text-align:left;
+    padding: 10px 10px;
 
 }
