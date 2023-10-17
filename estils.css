@@ -71,8 +71,7 @@ h1{
 }
 .bio {
     font-family: 'Roboto', sans-serif;
-    
-
+    padding-bottom: 5%;
 
 }
 
@@ -94,6 +93,7 @@ h1{
 section#redes {
     width: 90%;
     margin: 0 auto;
+    
 }
 .redes {
     display: flex;
@@ -102,15 +102,18 @@ section#redes {
     margin-bottom: 30px;
 }
 .logoXarxes {
-    width: 100px;
+    padding-top: 60px;
+    width: auto;
     height: 100px;
     margin: 10px;
+    padding-bottom: 50px;
 }
+
 
 /* Contactame formulari*/
 .contactame {
     background-color: #EAFFDA;
-    width: 80%;
+    width: 90%;
     height: auto;
     margin: 80px auto;
     border-radius:20px;
