@@ -1,6 +1,14 @@
+h1{
+    flex: 1;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    font-weight:bold;
+}
+
 .capçalera {
     display: flex;
-    background-color: rgb(49, 213, 210);
+/* background-color: rgb(49, 213, 210);*/
     align-items: center;
 }
 
@@ -64,18 +72,45 @@
 .bio {
     font-family: 'Roboto', sans-serif;
     background-color: antiquewhite;
-    display: flexbox;
+    
+
 
 }
 
 .bio h1 {
     text-align: center;
-    flex: 0;
     padding: 30px;
 
 }
 .bio p{
-    text-align:left;
-    padding: 10px 10px;
+    display: list-item;
+    font-size: 20px;
+    text-align:justify right;
+    line-height: 20px;    
+}
 
+
+
+/* Contactame formulari*/
+.contactame {
+    background-color: #EAFFDA;
+    width: 80%;
+    height: auto;
+    margin: 80px auto;
+    border-radius:20px;
+    padding-top: 30px;
+    padding-bottom:20px;
+    padding-left: 30px;
+}
+.contactame input {
+    font-family: 'Roboto', sans-serif;
+    width:450px;
+    height: 40px;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 20px;
+    background-color: bisque;
+    border-width: 1px;
+    padding:1px;
+    
 }
