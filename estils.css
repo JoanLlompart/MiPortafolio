@@ -150,3 +150,46 @@ button {
     border: none;
     border-radius: 4px;
 }
+
+/* Portofolio crearem 2 div grans que contendran 3 divs(caixes) en cada una de elles*/
+
+section#portofolio {
+    /*
+    display: flex;
+    background-color:rgb(227, 215, 237);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    */
+}
+.portofolio-frame { 
+    /*fila de elements*/
+    display: flex;
+    
+
+}
+.portoCaixa h1{
+    /* Caixa de el projecte*/
+    
+    background-color:red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+
+}
+
+.logoProjecte {
+    /*
+    padding-top: 5px;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    */
+    padding-top: 60px;
+    width: auto;
+    height: 100px;
+    margin: 10px;
+    padding-bottom: 50px;
+}
+
