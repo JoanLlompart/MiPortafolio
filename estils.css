@@ -166,30 +166,38 @@ section#portofolio {
 .portofolio-frame { 
     /*fila de elements*/
     display: flex;
+    background-color:rgb(227, 215, 237);
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    margin: 30px;
+
     
 
 }
-.portoCaixa h1{
+.portoCaixa {
     /* Caixa de el projecte*/
-    
-    background-color:red;
-    width: 200px;
-    height: 200px;
-    margin: auto;
-
+    background-color:rgb(230, 158, 158);
+    width: 30%;
+    padding: 10px;
+    border-radius: 10%;
+    height: auto;
+    margin: 5%;
+    text-align: center;
+    margin-bottom: 0 auto;
+}
+.portoCaixa img{
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    border-radius: 10%;
+    margin: 0 auto;
 }
 
-.logoProjecte {
-    /*
-    padding-top: 5px;
-    width: 80%;
-    height: 100px;
-    margin: auto;
-    */
-    padding-top: 60px;
-    width: auto;
-    height: 100px;
-    margin: 10px;
-    padding-bottom: 50px;
+.portoCaixa h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
 }
+
+
 
