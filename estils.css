@@ -165,12 +165,18 @@ section#portofolio {
 }
 .portofolio-frame { 
     /*fila de elements*/
-    display: flex;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; 
+    margin: auto;
+
     background-color:rgb(227, 215, 237);
     font-family: 'Roboto', sans-serif;
     justify-content: space-between;
-    margin: 30px;
+    width: 90%;
 
+    
     
 
 }
@@ -181,16 +187,18 @@ section#portofolio {
     padding: 10px;
     border-radius: 10%;
     height: auto;
-    margin: 5%;
+    margin: auto;
     text-align: center;
     margin-bottom: 0 auto;
 }
 .portoCaixa img{
     max-width: 100%;
-    height: auto;
+    height: 150px;
+    width: auto;
     align-items: center;
     border-radius: 10%;
     margin: 0 auto;
+    
 }
 
 .portoCaixa h1{
