@@ -207,3 +207,61 @@ section#portofolio {
     text-align: center;
     font-size: 1.5em;
 }
+
+
+
+.contenedorNivel {
+    background-color:yellow;
+    display: flex;
+}
+.llenguatgeNom {
+    margin-inline-start: 2%;
+    background-color:red;
+    width: 150px;
+}
+.barraNivel {
+    width: 50%;
+    background-color: rgb(153, 206, 168);
+    
+}
+
+
+
+
+/* Estilos para dispositivos grandes (pantallas de escritorio) */
+/* ... tus estilos actuales ... */
+
+/* Estilos para dispositivos más pequeños (pantallas de móviles) */
+@media (max-width: 768px) {
+    /* Redefine tus estilos aquí */
+    .capçalera {
+        flex-direction: column; /* Cambia la dirección de los elementos en la cabecera para apilarlos verticalmente */
+    }
+
+    .capçalera img {
+        max-width: 100px; /* Ajusta el ancho de la imagen para dispositivos móviles */
+    }
+
+    .botons-horizontals {
+        flex-direction: column; /* Apila los botones verticalmente en dispositivos móviles */
+    }
+
+    .botons-horizontals li {
+        margin: 10px 0; /* Espacio entre los botones en dispositivos móviles */
+    }
+
+    .botonsPrincipalsIndex {
+        width: 100%; /* Haz que los botones ocupen el ancho completo en dispositivos móviles */
+    }
+
+    .text {
+        margin: 10px; /* Agrega margen en dispositivos móviles para mejorar la legibilidad */
+    }
+
+    .logoXarxes {
+        width: 50px; /* Ajusta el tamaño de los logotipos de redes sociales */
+        height: auto;
+    }
+    
+    /* Puedes seguir redefiniendo otros estilos según tus necesidades */
+}
