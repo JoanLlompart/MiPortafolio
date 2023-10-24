@@ -171,10 +171,10 @@ section#portofolio {
     grid-gap: 10px; 
     margin: auto;
 
-    background-color:rgb(227, 215, 237);
+    /*background-color:rgb(227, 215, 237);*/
     font-family: 'Roboto', sans-serif;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
 
     
     
@@ -182,7 +182,7 @@ section#portofolio {
 }
 .portoCaixa {
     /* Caixa de el projecte*/
-    background-color:rgb(230, 158, 158);
+    background-color:#EAFFDA;
     width: 30%;
     padding: 10px;
     border-radius: 10%;
@@ -203,8 +203,8 @@ section#portofolio {
 
 .portoCaixa h1{
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
     margin-top: 10px;
+    text-align: center;
 }
 
 
