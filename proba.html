@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proba</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="proba.css">
+    
+</head>
+<body>
+    <div class="menu">
+        <div class="botones">
+            <button id="btnBio">Bio</button>
+            <button id="btnRedes">Redes</button>
+            <button id="btnContacto">Contacto</button>
+            <button id="btnPortafolio">Portafolio</button>
+            <button id="btnCV">CV</button>
+        </div>
+        <div class="desplegable">
+            <button id="menuIcon">&#9776;</button>
+            <div class="opciones">
+                <a href="#Bio">Bio</a>
+                <a href="#Redes">Redes</a>
+                <a href="#Contacto">Contacto</a>
+                <a href="#Portafolio">Portafolio</a>
+                <a href="#CV">CV</a>
+            </div>
+        </div>
+    </div>
+    
+<script>
+    document.getElementById('menuIcon').addEventListener('click', function() {
+    var opciones = document.querySelector('.opciones');
+    opciones.style.display = opciones.style.display === 'block' ? 'none' : 'block';
+});
+</script>
+</body>
+</html>

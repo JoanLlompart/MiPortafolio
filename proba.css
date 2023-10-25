@@ -1,0 +1,41 @@
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.botones {
+    display: flex;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.desplegable {
+    position: relative;
+}
+
+.opciones {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.opciones a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+#menuIcon:hover + .opciones {
+    display: block;
+}
