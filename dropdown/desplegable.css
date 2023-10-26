@@ -1,0 +1,18 @@
+/* Oculta el menú desplegable por defecto */
+
+.dropdown-content {
+    display: none;
+}
+
+/* Estilo básico del menú desplegable */
+.dropdown-content a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Cambia el fondo al pasar el ratón sobre los enlaces */
+.dropdown-content a:hover {
+    background-color: #24cdcd;
+}
+

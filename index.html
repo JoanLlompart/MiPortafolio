@@ -14,8 +14,11 @@
         href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,200&family=Roboto:wght@100&display=swap"
         rel="stylesheet">
         
-    <!-- <link rel="stylesheet" href="tabs.css"> -->
-        
+    
+    <!--Desplegable -->
+    <link rel="stylesheet" href="dropdown/desplegable.css">
+    <!--Desplegable -->
+    <script src="/dropdown/drop.js"></script>
 </head>
 
 <body>
@@ -47,10 +50,22 @@
                     <button type="button" class="botonsPrincipalsIndex">Portofolio</button>
                 </a>
             </li>
-            <li><a href="#cv">
-                    <button type="button" class="botonsPrincipalsIndex">CV</button>
-                </a>
+
+            <li>
+                <div class="menu-cv">
+                <!-- <a href="#cv"> --> 
+                    <a> <button id ="desplegableBoto" type="button" class="botonsPrincipalsIndex">CV</button> </a>
+                    <!--</a> -->  
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="#cv">CV</a>
+                            <a href="#nivel">Nivel</a>
+                            <a href="#">Idiomas</a>
+                            <a href="#">Experiencia</a>
+                        </div>
+                </div>
             </li>
+
+
         </ul>
     </nav>
 
