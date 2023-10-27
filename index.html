@@ -13,12 +13,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,200&family=Roboto:wght@100&display=swap"
         rel="stylesheet">
-        
-    
+
+
     <!--Desplegable -->
     <link rel="stylesheet" href="dropdown/desplegable.css">
     <!--Desplegable -->
-    <script src="/dropdown/drop.js"></script>
+    <script async src="/dropdown/drop.js"></script>
 </head>
 
 <body>
@@ -53,15 +53,17 @@
 
             <li>
                 <div class="menu-cv">
-                <!-- <a href="#cv"> --> 
-                    <a> <button id ="desplegableBoto" type="button" class="botonsPrincipalsIndex">CV</button> </a>
-                    <!--</a> -->  
-                        <div class="dropdown-content" id="myDropdown">
-                            <a href="#cv">CV</a>
-                            <a href="#nivel">Nivel</a>
-                            <a href="#">Idiomas</a>
-                            <a href="#">Experiencia</a>
-                        </div>
+                    <!-- <a href="#cv"> -->
+                    <button id="desplegableBoto" type="button"
+                        class="botonsPrincipalsIndex">CV</button>
+                    <!--</a> -->
+                    <div class="dropdown-content" id="myDropdown" hidden>
+                        <a href="#cv">CV</a>
+                        <a href="#nivel">Nivel</a>
+                        <a href="#idiomas" idioma>Idiomas</a>
+                        <a href="#">Experiencia</a>
+
+                    </div>
                 </div>
             </li>
 
@@ -245,7 +247,7 @@
                     <h2>MySQL</h2>
                 </li>
             </div>
-            <div class="barraNivel">⭐️ ⭐️ ⭐️ ⭐️</div>
+            <div class="barraNivel">⭐️ ⭐️ ⭐️</div>
         </div>
 
         <div class="contenedorNivel">
@@ -254,7 +256,7 @@
                     <h2>MongoDB</h2>
                 </li>
             </div>
-            <div class="barraNivel">⭐️ ⭐️ ⭐️ ⭐️</div>
+            <div class="barraNivel">⭐️ ⭐️</div>
         </div>
 
         <div class="contenedorNivel">
@@ -263,40 +265,49 @@
                     <h2>HTML/CSS</h2>
                 </li>
             </div>
-            <div class="barraNivel">⭐️ ⭐️ ⭐️ ⭐️</div>
+            <div class="barraNivel">⭐️ ⭐️ ⭐️</div>
         </div>
 
     </section>
 
-        <!-- Nivell de -->
+    <!-- Nivell de -->
     <section id="experiencia" class="experiencia">
-            <h1>Experiencia</h1>
-            <p>Feines</p>
-            <p>Llocs</p>    
+        <h1>Experiencia</h1>
+        <p>Feines</p>
+        <p>Llocs</p>
     </section>
 
-        <!-- Nivell de -->
-        <section id="idiomas" class="idiomas">
-            <h1>Idiomas</h1>
+    <!-- Nivell de -->
+    <section id="idiomas" class="idiomas">
+        <h1>Idiomas</h1>
 
-            <div class="idioma">
-                <ul>
+        <div class="idioma">
+            <ul>
                 <h2>LENGUAS MATERNAS :</h2>
-                    <li>Castella</li>
-                    <li>Catala</li>
-                </ul>
-            </div>
-            
-            <div class="idioma">
-                <ul>
+                <li>Castella 🇪🇸</li>
+                <li>Catala </li>
+            </ul>
+        </div>
+
+        <div class="idioma">
+            <ul>
                 <h2>OTROS IDIOMAS</h2>
-                    <li>Angles</li>   
-                    <li>Aleman</li>
-                </ul>
-            </div>
-                
+
+                <li>Angles 🇬🇧:
+                    <p>Nivel medio</p>
+                </li>
+                <li>Aleman 🇩🇪:</li>
+            </ul>
+        </div>
+
     </section>
 
+    <!-- Nivell de -->
+    <section id="idiomas" class="idiomas">
+        <h1>Conocimientos</h1>
+
+
+    </section>
 </body>
 
 </html>
