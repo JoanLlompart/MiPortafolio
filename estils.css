@@ -153,16 +153,6 @@ button {
 
 /* Portofolio crearem 2 div grans que contendran 3 divs(caixes) en cada una de elles*/
 
-section#portofolio {
-    /*
-    display: flex;
-    background-color:rgb(227, 215, 237);
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    */
-}
 .portofolio-frame { 
     /*fila de elements*/
     display: grid;
@@ -234,18 +224,34 @@ section#portofolio {
     line-height: 3;
 }
 
-.pdf{
-    width: 100%;
-    height: 500px;
+/* CV */
+
+.divCv {
+    overflow: auto;
 }
+.pdf {
+    
+    width: 100%;
+    height: 90vh; 
+}
+
+
 
 .idiomas {
     font-family: 'Roboto', sans-serif;
 
-
 }
 
+#certificados {
+    font-family: 'Roboto', sans-serif;
+}
 
+.certContainer img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 
 
