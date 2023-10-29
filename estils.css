@@ -24,6 +24,14 @@ h1{
     font-family: 'Roboto', sans-serif;
 }
 
+nav {
+    position: fixed; /* Establece la posición fija */
+    top: 0; /* Ajusta la parte superior del menú fijo */
+    width: 100%; /* Ocupa el 100% del ancho de la ventana */
+    z-index: 1000; /* Ajusta el índice z para que esté por encima del contenido */
+}
+
+
 .botons-horizontals {
     display: flex;
     list-style: none;
@@ -31,7 +39,6 @@ h1{
     padding: 0;
     justify-content: center;
     /* Alinea los elementos en el centro horizontalmente */
-
 }
 
 .botons-horizontals li {
@@ -242,8 +249,13 @@ button {
 
 }
 
-#certificados {
+#certificados h1{
     font-family: 'Roboto', sans-serif;
+}
+#certificados h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+
 }
 
 .certContainer img {
