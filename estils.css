@@ -221,7 +221,6 @@ button {
     margin-top: 20px;
     margin-inline-start: auto;
     margin-inline-end: auto;
-    ;
     text-align: center;
     font-size: 1.5em;
 }
@@ -238,7 +237,7 @@ button {
     
 }
 .llenguatgeNom {
-    margin-inline-start: 1%;
+    margin-inline-start: 4%;
     /* background-color:red;*/
     font-family: 'Roboto', sans-serif;
     font-style: italic;
