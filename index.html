@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="dropdown/desplegable.css">
     <!--Desplegable -->
     <script async src="/dropdown/drop.js"></script>
+
+    <!-- Formulari de contacte-->
+    <script async src="ProcesarFormulari.js"></script>
 </head>
 
 <body>
@@ -128,12 +131,12 @@
         <form id="formulari-contacte" class="formulari-contact" action="#" method="post" name="formulari">
             <div class="form-group">
                 <label for="email">Escribe aquí tu email</label>
-                <textarea id="email" name="email" rows="4" required placeholder="Escribe aqui tu email"></textarea>
+                <textarea id="email" name="email" rows="4" required placeholder="Escribe aqui tu email" required></textarea>
             </div>
 
             <div class="form-group">
                 <label for="motivo">Interés de contactar</label>
-                <textarea id="motivo" name="motivo" rows="40" required placeholder="Escribe aquí"></textarea>
+                <textarea id="motivo" name="motivo" rows="40" required placeholder="Escribe aquí" required></textarea>
             </div>
 
             <div class="form-group">
@@ -149,14 +152,14 @@
 
             <div id="caixaPortafolio" class="portoCaixa">
                 <a href="https://github.com/JoanLlompart/Bender-Practica">
-                    <img src="/imagenes/bender.jpeg" class="logoProjecte">
+                    <img src="/portofolio/benderIA.jpg" class="logoProjecte">
                 </a>
                 <h2>Bender</h2>
             </div>
 
             <div id="caixaPortafolio" class="portoCaixa">
                 <a href="https://github.com/JoanLlompart/Practica-Limbo-JDBC">
-                    <img src="/imagenes/limboLogo.jpeg" class="logoProjecte">
+                    <img src="/portofolio/limboLogo.jpg" class="logoProjecte">
                 </a>
                 <h2>Limbo</h2>
             </div>
@@ -300,8 +303,14 @@
         <div class="idioma">
             <ul>
                 <h2>LENGUAS MATERNAS :</h2>
-                <li>Castella 🇪🇸</li>
-                <li>Catala </li>
+                <li>
+                    <h3>Castella 🇪🇸 </h3>
+                </li>
+                <br>
+                <li>
+                    <h3>Catalan</h3> 
+                </li>
+                <br>
             </ul>
         </div>
 
@@ -309,10 +318,17 @@
             <ul>
                 <h2>OTROS IDIOMAS</h2>
 
-                <li>Angles 🇬🇧:
-                    <p>Nivel medio</p>
+                <li> <h3>Angles 🇬🇧:</h3> 
+                    <ol>
+                        <h5>- Nivel medio</h5>
+                    </ol>
                 </li>
-                <li>Aleman 🇩🇪:</li>
+                <br>
+                <li> <h3>Aleman 🇩🇪:</h3>
+                    <ol>
+                        <h5> - Nivel medio</h5>
+                    </ol>
+                </li>
             </ul>
         </div>
 
@@ -322,11 +338,12 @@
     <section id="conocimientos">
         <h1>Conocimientos</h1>
 
+        <H2>Skills and Tools</H2>
+
     </section>
 
     <section id="certificados">
         <h1>Certificados</h1>
-
         <div class="certContainer">
             <h2>MongoDB Basic</h2>
             <img src="/imagenes/Cerificado MongoDB University.jpeg" class="imageCert">

@@ -185,8 +185,6 @@ button {
     align-items: center;
     border-radius: 10%;
     margin: 0 auto;
-    
-    
 }
 
 .portoCaixa h2{
@@ -225,7 +223,6 @@ button {
 }
 
 /* CV */
-
 .divCv {
     overflow: auto;
 }
@@ -238,7 +235,18 @@ button {
 
 
 .idiomas {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+.idioma {
+    display: inline-flex;
+    margin: 5%;
+    align-content: center;
 
 }
 
