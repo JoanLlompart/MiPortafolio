@@ -25,6 +25,9 @@ function validarMotivo() {
 document.querySelector("#formulari-contacte").addEventListener("submit", function(event) {
     if (!validarEmail() || !validarMotivo()) {
         event.preventDefault(); // Evita que el formulario se envíe si la validación no es exitosa
+    } else {
+        var mensatge = document.getElementById("missatgeForm");
+        mensatge.textContent = "Formulario enviado correctamente, recibira una respuesta lo antes posible.";
     }
 });
 

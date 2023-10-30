@@ -1,9 +1,9 @@
-h1{
+h1 {
     flex: 1;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     text-decoration: underline;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .capçalera {
@@ -54,7 +54,7 @@ h1{
     /* Disseny de els botons
     */
     font-family: 'Roboto', sans-serif bold;
-    font-weight:bold;
+    font-weight: bold;
     background-color: #EAFFDA;
     border-radius: 10px;
     width: 110px;
@@ -67,9 +67,10 @@ h1{
     background-color: #67b32d;
     border: 2px solid;
     text-decoration: none;
-    cursor: pointer;    
+    cursor: pointer;
 
 }
+
 .bio {
     font-family: 'Roboto', sans-serif;
     padding-bottom: 5%;
@@ -81,6 +82,7 @@ h1{
     padding: 30px;
 
 }
+
 .text {
     text-align: justify;
     margin-top: 10px;
@@ -94,14 +96,17 @@ h1{
 section#redes {
     width: 90%;
     margin: 0 auto;
-    
+
 }
+
 .redes {
     display: flex;
-    justify-content: space-between; /*Afegeix espais entre elements */
+    justify-content: space-between;
+    /*Afegeix espais entre elements */
     align-items: center;
     margin-bottom: 30px;
 }
+
 .logoXarxes {
     padding-top: 60px;
     width: auto;
@@ -117,32 +122,54 @@ section#redes {
     width: 90%;
     height: 100%;
     margin: 80px auto;
-    border-radius:20px;
+    border-radius: 20px;
     padding-top: 30px;
-    padding-bottom:20px;
+    padding-bottom: 20px;
     padding-left: 30px;
-}
-.formulari-contact {
-    max-width: 400px; /* Ancho máximo del formulario */
-    margin: 0 auto; /* Centra el formulario horizontalmente */
-    
-}
-.form-group {
-    margin-bottom: 15px; /* Margen inferior entre elementos del formulario */
+
+    /* proba*/
+    text-align: center;
+
 }
 
+.formIcon {
+    display: block;
+    margin: 0 auto;
+    max-width:8%;
+    padding-bottom: 2%;
+}
+
+.formulari-contact {
+    max-width: 400px;
+    /* Ancho máximo del formulario */
+    margin: 0 auto;
+    /* Centra el formulario horizontalmente */
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+    /* Margen inferior entre elementos del formulario */
+}
+
+
 label {
-    display: block; /* Coloca las etiquetas en una línea separada */
-    margin-bottom: 5px; /* Margen inferior para las etiquetas */
+    display: block;
+    /* Coloca las etiquetas en una línea separada */
+    margin-bottom: 5px;
+    /* Margen inferior para las etiquetas */
 }
 
 textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px; /* Margen inferior para campos de entrada y área de texto */
-    border: 1px solid #ccc; /* Borde para campos de entrada y área de texto */
+    margin-bottom: 10px;
+    /* Margen inferior para campos de entrada y área de texto */
+    border: 1px solid #ccc;
+    /* Borde para campos de entrada y área de texto */
     border-radius: 20px;
 }
+
 button {
     background-color: #007bff;
     color: #fff;
@@ -153,32 +180,34 @@ button {
 
 /* Portofolio crearem 2 div grans que contendran 3 divs(caixes) en cada una de elles*/
 
-.portofolio-frame { 
+.portofolio-frame {
     /*fila de elements*/
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5%; 
+    grid-gap: 5%;
     gap: 5%;
     margin: auto;
     /*background-color:rgb(227, 215, 237);*/
     font-family: 'Roboto', sans-serif;
     justify-content: space-between;
-    width: 100%;  
+    width: 100%;
     padding-bottom: 20px;
-    
-    
+
+
 
 }
+
 .portoCaixa {
     /* Caixa de el projecte*/
-    background-color:#EAFFDA;
+    background-color: #EAFFDA;
     padding: 10px;
     border-radius: 10%;
     height: auto;
     text-align: center;
     margin-bottom: 0 auto;
 }
-.portoCaixa img{
+
+.portoCaixa img {
     max-width: 100%;
     height: 150px;
     width: auto;
@@ -187,11 +216,12 @@ button {
     margin: 0 auto;
 }
 
-.portoCaixa h2{
+.portoCaixa h2 {
     font-family: 'Roboto', sans-serif;
     margin-top: 20px;
     margin-inline-start: auto;
-    margin-inline-end: auto; ;
+    margin-inline-end: auto;
+    ;
     text-align: center;
     font-size: 1.5em;
 }
@@ -199,9 +229,10 @@ button {
 
 
 .contenedorNivel {
-/* background-color:yellow;*/
+    /* background-color:yellow;*/
     display: flex;
 }
+
 .llenguatgeNom {
     margin-inline-start: 2%;
     /* background-color:red;*/
@@ -210,15 +241,16 @@ button {
     width: 150px;
     white-space: nowrap;
 }
+
 .barraNivel {
     margin-top: 10px;
     margin-bottom: 5px;
     max-width: 80%;
     min-width: 60%;
     margin-right: 10%;
-    background-color:#EAFFDA;
+    background-color: #EAFFDA;
     font-size: 24px;
-    text-align:center;
+    text-align: center;
     line-height: 3;
 }
 
@@ -226,21 +258,22 @@ button {
 .divCv {
     overflow: auto;
 }
+
 .pdf {
-    
+
     width: 100%;
-    height: 90vh; 
+    height: 90vh;
 }
 
 
 
 .idiomas {
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
     display: flex;
     text-align: center;
     justify-content: center;
-    
-    
+
+
 }
 
 .idioma {
@@ -251,16 +284,18 @@ button {
 }
 
 
-#certificados h1{
+#certificados h1 {
     font-family: 'Roboto', sans-serif;
     padding-bottom: 5%;
 }
-#certificados h2{
+
+#certificados h2 {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     text-decoration: underline;
-    padding-bottom:1%;
+    padding-bottom: 1%;
 }
+
 .certContainer {
     padding-bottom: 5%;
 
@@ -284,36 +319,44 @@ button {
 
 /* Estilos para dispositivos más pequeños (pantallas de móviles) */
 @media (max-width: 768px) {
+
     /* Redefine tus estilos aquí */
     .capçalera {
-        flex-direction: column; /* Cambia la dirección de los elementos en la cabecera para apilarlos verticalmente */
+        flex-direction: column;
+        /* Cambia la dirección de los elementos en la cabecera para apilarlos verticalmente */
     }
 
     .capçalera img {
-        max-width: 100px; /* Ajusta el ancho de la imagen para dispositivos móviles */
+        max-width: 100px;
+        /* Ajusta el ancho de la imagen para dispositivos móviles */
     }
 
     .botons-horizontals {
-        flex-direction: column; /* Apila los botones verticalmente en dispositivos móviles */
+        flex-direction: column;
+        /* Apila los botones verticalmente en dispositivos móviles */
     }
 
     .botons-horizontals li {
-        margin: 10px 0; /* Espacio entre los botones en dispositivos móviles */
+        margin: 10px 0;
+        /* Espacio entre los botones en dispositivos móviles */
     }
 
     .botonsPrincipalsIndex {
-        width: 100%; /* Haz que los botones ocupen el ancho completo en dispositivos móviles */
+        width: 100%;
+        /* Haz que los botones ocupen el ancho completo en dispositivos móviles */
     }
 
     .text {
-        margin: 10px; /* Agrega margen en dispositivos móviles para mejorar la legibilidad */
+        margin: 10px;
+        /* Agrega margen en dispositivos móviles para mejorar la legibilidad */
     }
 
     .logoXarxes {
-        width: 50px; /* Ajusta el tamaño de los logotipos de redes sociales */
+        width: 50px;
+        /* Ajusta el tamaño de los logotipos de redes sociales */
         height: auto;
     }
-    
+
     /* Puedes seguir redefiniendo otros estilos según tus necesidades */
     .llenguatgeNom {
         font-size: 10px;

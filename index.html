@@ -14,7 +14,6 @@
         href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,200&family=Roboto:wght@100&display=swap"
         rel="stylesheet">
 
-
     <!--Desplegable -->
     <link rel="stylesheet" href="dropdown/desplegable.css">
     <!--Desplegable -->
@@ -22,6 +21,12 @@
 
     <!-- Formulari de contacte-->
     <script async src="ProcesarFormulari.js"></script>
+
+    <!-- Scroll css-->
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="scroll.css">
+    
 </head>
 
 <body>
@@ -128,6 +133,8 @@
 
     <section id="contactame" class="contactame">
         <h1>Contactame</h1>
+        <img src="imagenes/formIcon.png" class="formIcon">
+        
         <form id="formulari-contacte" class="formulari-contact" action="#" method="post" name="formulari">
             <div class="form-group">
                 <label for="email">Escribe aquí tu email</label>
@@ -143,6 +150,7 @@
                 <button type="submit">Enviar</button>
             </div>
         </form>
+        <p id="missatgeForm"></p>
     </section>
 
     <!-- Portofolio-->
@@ -338,7 +346,28 @@
     <section id="conocimientos">
         <h1>Conocimientos</h1>
 
-        <H2>Skills and Tools</H2>
+        <h2>Skills and Tools</h2>
+
+        <div class="scroll-container">
+            <div class="scroll-content">
+                <img src="toolsImage/maven.svg">
+                <img src="toolsImage/Bootstrapsvg.png">
+                <img src="toolsImage/Intellij-IDEA.png"> <!--Revisar tamany-->
+                <img src="toolsImage/slack.png">
+                <img src="toolsImage/vscode">
+                <img src="toolsImage/mamp.png">
+                <img src="toolsImage/react.png">
+                <img src="toolsImage/Markdown.png">
+                <img src="toolsImage/docker.png">
+                <img src="toolsImage/obsidian.png">
+                <img src="toolsImage/azure.png">
+                <img src="toolsImage/netbeans.png">
+                <img src="toolsImage/scrum.jpeg">
+                <img src="toolsImage/Windows.jpeg">
+                <img src="toolsImage/macOS.png">
+                <img src="toolsImage/unix.png">
+            </div>
+        </div>
 
     </section>
 

@@ -1,0 +1,17 @@
+
+.scroll-container {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scroll-content {
+    display: inline-block;
+}
+
+.scroll-content img {
+    width: auto;
+    height: 100px;
+    margin-right: 5%;
+    /* Espacio entre imágenes */
+}

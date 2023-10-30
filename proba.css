@@ -36,6 +36,58 @@ button {
     color: #333;
 }
 
-#menuIcon:hover + .opciones {
+#menuIcon:hover+.opciones {
     display: block;
+}
+
+
+/*Punt de prova nova */
+/*
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.scroll-content {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.scroll-content img {
+    width: auto;
+    height: 100px;
+    margin-right: 10px;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+*/
+
+.scroll-container {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scroll-content {
+    display: inline-block;
+}
+
+.scroll-content img {
+    width: auto;
+    height: 100px;
+    margin-right: 10px;
+    /* Espacio entre imágenes */
 }

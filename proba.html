@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>proba</title>
-    
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="proba.css">
 </head>
+
 <body>
     <div class="menu">
         <div class="botones">
@@ -29,12 +31,32 @@
         </div>
     </div>
 
-    
-<script>
-    document.getElementById('menuIcon').addEventListener('click', function() {
-    var opciones = document.querySelector('.opciones');
-    opciones.style.display = opciones.style.display === 'block' ? 'none' : 'block';
-});
-</script>
+    <br><br><br>
+
+    <div class="scroll-container">
+        <div class="scroll-content">
+            <img src="/imagenes/bignumberLogo.png">
+            <img src="imagenes/limboLogo.jpeg">
+            <img src="imagenes/gmail-logo.png">
+            <img src="/imagenes/bignumberLogo.png">
+            <img src="imagenes/limboLogo.jpeg">
+            <img src="imagenes/gmail-logo.png">
+            <img src="/imagenes/bignumberLogo.png">
+            <img src="imagenes/limboLogo.jpeg">
+            <img src="imagenes/gmail-logo.png">
+            <img src="/imagenes/bignumberLogo.png">
+            <img src="imagenes/limboLogo.jpeg">
+            <img src="imagenes/compressionLogo.png">
+        </div>
+    </div>
+
+    <script src="probaCarrusel.js"></script>
+    <script>
+        document.getElementById('menuIcon').addEventListener('click', function () {
+            var opciones = document.querySelector('.opciones');
+            opciones.style.display = opciones.style.display === 'block' ? 'none' : 'block';
+        });
+    </script>
 </body>
+
 </html>
