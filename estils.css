@@ -230,22 +230,34 @@ button {
 
 .contenedorNivel {
     /* background-color:yellow;*/
+/*  display: flex;*/
     display: flex;
 }
-
+.contenedorNivel img{
+    max-width: 50px;
+    
+}
 .llenguatgeNom {
-    margin-inline-start: 2%;
+    margin-inline-start: 1%;
     /* background-color:red;*/
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     width: 150px;
     white-space: nowrap;
 }
+.llenguatgeNom li {
+    display: flex;
+    align-items: center;
+
+}
+.llenguatgeNom img {
+    padding-left: 10%;
+}
 
 .barraNivel {
     margin-top: 10px;
     margin-bottom: 5px;
-    max-width: 80%;
+    max-width: 95%;
     min-width: 60%;
     margin-right: 10%;
     background-color: #EAFFDA;
@@ -253,6 +265,17 @@ button {
     text-align: center;
     line-height: 3;
 }
+/*
+
+.barraNivel {
+    background-color: #EAFFDA;
+    flex-direction: column;
+    width: auto;
+    text-align: center;
+    align-items: center;
+}
+*/
+
 
 /* CV */
 .divCv {
