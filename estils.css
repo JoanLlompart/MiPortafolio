@@ -292,10 +292,14 @@ button {
     font-family: 'Roboto', sans-serif;
 }
 .idioma {
-    flex: 0 1 15%;
+    background-color: #EAFFDA;
     padding: 5%;
     padding-bottom: 5%;
-
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+.idioma h2 {
+    text
 }
 .blocsIdioma {
     display: flex;
