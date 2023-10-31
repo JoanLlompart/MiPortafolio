@@ -1,3 +1,9 @@
+:root {
+    --font-family: font-family: 'Roboto', sans-serif;
+}
+body{
+    margin-top:72px;
+}
 h1 {
     flex: 1;
     text-align: center;
@@ -24,7 +30,17 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
+nav {
 
+    position: sticky; /* Establece la posición fija */
+    
+    top: 0; /* Ajusta la parte superior del menú fijo */
+    
+    width: 100%; /* Ocupa el 100% del ancho de la ventana */
+    
+    z-index: 1000; /* Ajusta el índice z para que esté por encima del contenido */
+    
+    }
 .botons-horizontals {
     display: flex;
     list-style: none;
@@ -297,20 +313,38 @@ button {
     padding-bottom: 5%;
     margin-inline-start: auto;
     margin-inline-end: auto;
+    border-radius: 10%;
+    margin:2%;
 }
 .idioma h2 {
-    text
+    font-weight: bold;
 }
 .blocsIdioma {
     display: flex;
     justify-content:space-between;
-    width: 90%;
+    width: 100%;
 }
 
+
+.conocimientos li{
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    margin-inline-start: 1em;
+}
+.conocimientos {
+    margin-top: 5%;
+}
+.conocimientos h2{
+    font-weight: flex;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
 
 #certificados h1 {
     font-family: 'Roboto', sans-serif;
     padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 #certificados h2 {
@@ -385,4 +419,5 @@ button {
     .llenguatgeNom {
         font-size: 10px;
     }
+
 }
