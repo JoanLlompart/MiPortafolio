@@ -34,7 +34,7 @@ nav {
 
     position: sticky; /* Establece la posición fija */
     
-    top: 0; /* Ajusta la parte superior del menú fijo */
+    top: 20px; /* Ajusta la parte superior del menú fijo */
     
     width: 100%; /* Ocupa el 100% del ancho de la ventana */
     
