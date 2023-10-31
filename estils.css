@@ -2,7 +2,7 @@
     --font-family: font-family: 'Roboto', sans-serif;
 }
 body{
-    margin-top:72px;
+    margin-top:3%;
 }
 h1 {
     flex: 1;
@@ -16,10 +16,11 @@ h1 {
     display: flex;
     /*background-color: rgb(49, 213, 210);*/
     align-items: center;
+    margin-bottom: 3%;
 }
 
 .capçalera img {
-
+    margin-inline-start: 3%;
     flex: 0;
     border-radius: 10%;
 }
@@ -298,13 +299,20 @@ button {
 .divCv {
     overflow: auto;
 }
-
+.cv {
+    margin-top:10%;
+}
 .pdf {
+    margin-top: 5%;
     width: 100%;
     height: 90vh;
 }
 
 
+/*Experiencia */
+.empresa {
+    margin-left: 0.5em;
+}
 
 .idiomas {
     font-family: 'Roboto', sans-serif;
