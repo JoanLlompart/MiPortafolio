@@ -273,12 +273,14 @@ button {
     margin-top: 10px;
     margin-bottom: 5px;
     max-width: 95%;
-    min-width: 60%;
+    min-width: 50%;
     margin-right: 10%;
     background-color: #EAFFDA;
     font-size: 24px;
     text-align: center;
     line-height: 3;
+    margin-left: 10%;
+    
 }
 /*
 
