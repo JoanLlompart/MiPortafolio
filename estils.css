@@ -1,9 +1,12 @@
 :root {
     --font-family: font-family: 'Roboto', sans-serif;
+    --background-color: #EAFFDA;
+
 }
 body{
     margin-top:3%;
 }
+
 h1 {
     flex: 1;
     text-align: center;
@@ -197,25 +200,90 @@ button {
 
 /* Portofolio crearem 2 div grans que contendran 3 divs(caixes) en cada una de elles*/
 
+
 .portofolio-frame {
-    /*fila de elements*/
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 5%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.portoCaixa {
+    background-color: #EAFFDA;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom:15%;
+    max-width: 100%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10%;
+}
+
+.logoProjecte {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Estilos adicionales que desees */
+
+/* 
+
+.portofolio-frame {
+    /*fila de elements
+    display: flex;
+    flex-wrap: wrap;
+    /*grid-template-columns: repeat(3, 1fr);
+    grid-template-columns:minmax();
     grid-gap: 5%;
     gap: 5%;
     margin: auto;
-    /*background-color:rgb(227, 215, 237);*/
     font-family: 'Roboto', sans-serif;
     justify-content: space-between;
     width: 100%;
     padding-bottom: 20px;
-
-
-
+    flex-shrink: 1;
+    flex-grow: 1;
 }
 
 .portoCaixa {
-    /* Caixa de el projecte*/
+
+    background-color: #EAFFDA;
+    padding: 10px;
+    border-radius: 10%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 0 auto;
+}
+
+.portoCaixa img {
+    margin-top: 3px;
+    max-width: 100%;
+    height: 150px;
+    width:150px;
+    align-items: center;
+    border-radius: 10%;
+    margin: 0 auto;
+}
+
+.portoCaixa h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+
++/
+
+
+/*
+.portoCaixa {
+    /* Caixa de el projecte
     background-color: #EAFFDA;
     padding: 10px;
     border-radius: 10%;
@@ -242,7 +310,7 @@ button {
     font-size: 1.5em;
 }
 
-
+*/
 
 .contenedorNivel {
     /* background-color:yellow;*/
