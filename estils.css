@@ -3,8 +3,9 @@
     --background-color: #EAFFDA;
 
 }
-body{
-    margin-top:3%;
+
+body {
+    margin-top: 3%;
 }
 
 h1 {
@@ -36,15 +37,20 @@ h1 {
 
 nav {
 
-    position: sticky; /* Establece la posición fija */
-    
-    top: 20px; /* Ajusta la parte superior del menú fijo */
-    
-    width: 100%; /* Ocupa el 100% del ancho de la ventana */
-    
-    z-index: 1000; /* Ajusta el índice z para que esté por encima del contenido */
-    
-    }
+    position: sticky;
+    /* Establece la posición fija */
+
+    top: 20px;
+    /* Ajusta la parte superior del menú fijo */
+
+    width: 100%;
+    /* Ocupa el 100% del ancho de la ventana */
+
+    z-index: 1000;
+    /* Ajusta el índice z para que esté por encima del contenido */
+
+}
+
 .botons-horizontals {
     display: flex;
     list-style: none;
@@ -89,6 +95,11 @@ nav {
     text-decoration: none;
     cursor: pointer;
 
+}
+
+.btnmovil{
+    display: none;
+    background-color:none;
 }
 
 .bio {
@@ -155,7 +166,7 @@ section#redes {
 .formIcon {
     display: block;
     margin: 0 auto;
-    max-width:8%;
+    max-width: 8%;
     padding-bottom: 2%;
 }
 
@@ -216,7 +227,7 @@ button {
     background-color: #EAFFDA;
     margin-left: 15%;
     margin-right: 15%;
-    margin-bottom:15%;
+    margin-bottom: 15%;
     max-width: 100%;
     text-align: center;
     padding: 15px;
@@ -315,13 +326,15 @@ button {
 
 .contenedorNivel {
     /* background-color:yellow;*/
-/*  display: flex;*/
+    /*  display: flex;*/
     display: flex;
 }
-.contenedorNivel img{
+
+.contenedorNivel img {
     max-width: 50px;
-    
+
 }
+
 .llenguatgeNom {
     margin-inline-start: 4%;
     /* background-color:red;*/
@@ -330,11 +343,13 @@ button {
     width: 150px;
     white-space: nowrap;
 }
+
 .llenguatgeNom li {
     display: flex;
     align-items: center;
 
 }
+
 .llenguatgeNom img {
     padding-left: 10%;
 }
@@ -350,8 +365,9 @@ button {
     text-align: center;
     line-height: 3;
     margin-left: 10%;
-    
+
 }
+
 /*
 
 .barraNivel {
@@ -368,9 +384,11 @@ button {
 .divCv {
     overflow: auto;
 }
+
 .cv {
-    margin-top:10%;
+    margin-top: 10%;
 }
+
 .pdf {
     margin-top: 5%;
     width: 100%;
@@ -386,6 +404,7 @@ button {
 .idiomas {
     font-family: 'Roboto', sans-serif;
 }
+
 .idioma {
     background-color: #EAFFDA;
     padding: 5%;
@@ -393,27 +412,31 @@ button {
     margin-inline-start: auto;
     margin-inline-end: auto;
     border-radius: 10%;
-    margin:2%;
+    margin: 2%;
 }
+
 .idioma h2 {
     font-weight: bold;
 }
+
 .blocsIdioma {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     width: 100%;
 }
 
 
-.conocimientos li{
+.conocimientos li {
     font-size: 1em;
     margin-bottom: 0.5em;
     margin-inline-start: 1em;
 }
+
 .conocimientos {
     margin-top: 5%;
 }
-.conocimientos h2{
+
+.conocimientos h2 {
     font-weight: flex;
     text-align: center;
     margin-bottom: 5%;
@@ -422,8 +445,10 @@ button {
 
 #certificados h1 {
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     padding-bottom: 5%;
     padding-top: 5%;
+
 }
 
 #certificados h2 {
@@ -431,6 +456,7 @@ button {
     font-style: italic;
     text-decoration: underline;
     padding-bottom: 1%;
+    margin-inline-start: 5%;
 }
 
 .certContainer {
@@ -474,7 +500,7 @@ button {
     }
 
     .botons-horizontals li {
-        margin: 10px 0;
+        margin: 1px 0;
         /* Espacio entre los botones en dispositivos móviles */
     }
 
@@ -499,4 +525,7 @@ button {
         font-size: 10px;
     }
 
+    .form-group textarea {
+        width: 80%;
+    }
 }
