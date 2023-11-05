@@ -401,6 +401,51 @@ button {
     margin-left: 0.5em;
 }
 
+.experiencia-item {
+    background-color: #fff; /* Fondo blanco para resaltar el contenido */
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10%; /* Espaciado interno */
+    margin-bottom: 20px; /* Espaciado externo inferior */
+    max-width: 800px; /* Ancho máximo */
+    margin: 20px auto; /* Centrado y espaciado vertical */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil para profundidad */
+}
+
+.experiencia-item h2 {
+    color: #2c3e50; /* Color para el título */
+    margin-bottom: 0.5em; /* Espacio debajo del título */
+}
+
+.experiencia-item h3 {
+    color: #34495e; /* Color para el subtítulo */
+    margin-top: 0; /* Sin espacio arriba del subtítulo */
+    margin-bottom: 0.5em; /* Espacio debajo del subtítulo */
+}
+
+.experiencia-item ul {
+    list-style-type: disc; /* Estilo de viñeta */
+    padding-left: 20px; /* Espaciado para las viñetas */
+    margin-top: 0; /* Sin espacio arriba de la lista */
+    margin-bottom: 1em; /* Espacio debajo de la lista */
+}
+
+.experiencia-item ul li {
+    line-height: 1.5; /* Espaciado entre líneas para las listas */
+    color: #333; /* Color del texto para los ítems de la lista */
+}
+
+.experiencia-item p {
+    text-align: justify; /* Justificación del texto */
+    color: #555; /* Color del texto */
+    line-height: 1.7; /* Espaciado entre líneas para el párrafo */
+    margin-bottom: 1em; /* Espacio debajo de los párrafos */
+}
+
+
+
+
+
 .idiomas {
     font-family:var(--font-family);
 }
