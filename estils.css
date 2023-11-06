@@ -442,6 +442,11 @@ button {
     margin-bottom: 1em; /* Espacio debajo de los párrafos */
 }
 
+#experiencia p1 {
+    color: green;
+    text-decoration: underline;
+}
+
 
 
 
