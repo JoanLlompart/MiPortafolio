@@ -21,12 +21,14 @@ h1 {
     /*background-color: rgb(49, 213, 210);*/
     align-items: center;
     margin-bottom: 3%;
+    margin-right: 9%;
 }
 
 .capçalera img {
     margin-inline-start: 3%;
     flex: 0;
     border-radius: 10%;
+    
 }
 
 .capçalera h1 {
@@ -566,12 +568,16 @@ button {
     .capçalera {
         flex-direction: column;
         /* Cambia la dirección de los elementos en la cabecera para apilarlos verticalmente */
+        width: 100%;
+        align-items: center;
+        margin-bottom: 3%;
     }
 
     .capçalera img {
-        max-width: 100px;
+        width: 100px;
         /* Ajusta el ancho de la imagen para dispositivos móviles */
     }
+
 
     .botons-horizontals {
         flex-direction: column;
