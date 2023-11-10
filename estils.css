@@ -359,6 +359,8 @@ button {
 
 .idiomas {
     font-family:var(--font-family);
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 /*
 .idioma {
@@ -419,6 +421,7 @@ button {
 
 .conocimientos {
     margin-top: 5%;
+    padding-bottom: 1.5em;
 }
 
 .conocimientos h2 {
