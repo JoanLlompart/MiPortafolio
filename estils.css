@@ -285,18 +285,6 @@ button {
 
 }
 
-/*
-
-.barraNivel {
-    background-color: #EAFFDA;
-    flex-direction: column;
-    width: auto;
-    text-align: center;
-    align-items: center;
-}
-*/
-
-
 /* CV */
 .divCv {
     overflow: auto;
@@ -509,13 +497,6 @@ button {
         /* Haz que los botones ocupen el ancho completo en dispositivos móviles */
     }
 
-    /*
-    .btnmovil{
-        display: block;
-        text-align: center;
-        background-color:var(--background-color);
-    }
-*/
     .btnmovil {
         display: block;
         margin: auto;
@@ -541,6 +522,10 @@ button {
         width: 50px;
         /* Ajusta el tamaño de los logotipos de redes sociales */
         height: auto;
+    }
+    .barraNivel {
+        flex: 1;
+        margin-right: 3%;
     }
 
     /* Puedes seguir redefiniendo otros estilos según tus necesidades */
