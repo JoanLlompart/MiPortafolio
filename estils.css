@@ -152,17 +152,14 @@ section#redes {
 /* Contactame formulari*/
 .contactame {
     background-color: #EAFFDA;
-    width: 90%;
+    width: 50%;
     height: 100%;
     margin: 80px auto;
     border-radius: 20px;
     padding-top: 30px;
     padding-bottom: 20px;
     padding-left: 30px;
-
-    /* proba*/
     text-align: center;
-
 }
 
 .formIcon {
@@ -534,6 +531,10 @@ button {
     }
 
     .form-group textarea {
+        width: 90%;
+    }
+
+    .contactame {
         width: 80%;
     }
 }
