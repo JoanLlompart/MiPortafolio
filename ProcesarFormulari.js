@@ -23,6 +23,15 @@ function validarMotivo() {
     //si el motivo es valid
     return true;
 }
+// Muestra el mensaje de ayuda cuando se detecta el evento de scroll
+window.addEventListener('scroll', function() {
+    var scrollHelp = document.getElementById('scrollHelp');
+    if (window.scrollX > 20) {
+        scrollHelp.style.display = 'block';
+    } else {
+        scrollHelp.style.display = 'none';
+    }
+});
 
 document.querySelector("#formulari-contacte").addEventListener("submit", function(event) {
     if (!validarEmail() || !validarMotivo()) {

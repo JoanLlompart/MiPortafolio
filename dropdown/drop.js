@@ -12,7 +12,14 @@ boton.addEventListener("click", function(event) {
     }
 });
 
+function mostrarAyuda() {
+    var ayuda = document.getElementById('scrollHelp');
+    ayuda.style.display = 'block';
+}
+
 // Añade el evento de escucha para cuando el ratón deja de pasar por encima
 dropdown.addEventListener("mouseleave", function() {
     
 });
+
+

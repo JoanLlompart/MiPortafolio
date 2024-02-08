@@ -19,3 +19,11 @@
 .scroll-content img:hover {
     transform: scale(1.1);
 }
+
+.help-message {
+    color: #333; /* Color del texto */
+    background-color: #f9f9f9; /* Color de fondo */
+    border: 1px solid #ccc; /* Borde */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
