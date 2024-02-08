@@ -17,5 +17,5 @@
     transition: transform 0.3s ease; 
 }
 .scroll-content img:hover {
-    transform: scale(1.1); /* Escala la imagen al 110% al pasar el ratón sobre ella */
+    transform: scale(1.1);
 }
