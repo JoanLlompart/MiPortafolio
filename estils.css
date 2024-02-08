@@ -132,6 +132,13 @@ section#redes {
 
 }
 
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
 .redes {
     display: flex;
     justify-content: space-between;
