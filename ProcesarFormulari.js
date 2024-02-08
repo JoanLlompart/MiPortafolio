@@ -9,6 +9,8 @@ function validarEmail() {
     return true;
 }
 
+
+
 var motivo = document.getElementById("motivo");
 
 function validarMotivo() {
@@ -30,4 +32,3 @@ document.querySelector("#formulari-contacte").addEventListener("submit", functio
         mensatge.textContent = "Formulario enviado correctamente, recibira una respuesta lo antes posible.";
     }
 });
-
