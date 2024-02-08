@@ -3,6 +3,7 @@
     width: 100%;
     overflow:auto;
     white-space: nowrap;
+    padding: 20px 0;
 }
 
 .scroll-content {
