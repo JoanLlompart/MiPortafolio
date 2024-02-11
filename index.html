@@ -253,7 +253,6 @@
                 <ul>
                     <li>JavaScript
                         <img src="toolsImage/jsicon.png" alt="Logo JS">
-                    </li>
                 </ul>
             </div>
             <div class="barraNivel">⭐️ ⭐️ ⭐️ ⭐️</div>
@@ -430,13 +429,17 @@
         <h2>Skills and Tools</h2>
         <button id="btnInfo" onclick="mostrarAyuda()"  style="background-color: white; font-size: 24px; padding: 10px;">ℹ️</button>
 
-        <div id="scrollHelp" class="help-message">Desplázate lateralmente hacia la derecha para ver más herramientas.</div>
+        <div id="scrollHelp" class="help-message">
+            Desplázate lateralmente hacia la derecha para ver más herramientas.
+            <br>
+            Pulsa encima de la imagen para ir a la nota de pie
+        </div>
         
         <div class="scroll-container">
             <div class="scroll-content">
-                <img src="toolsImage/maven.svg" alt="Logo Maven">
+                <img src="toolsImage/maven.svg" alt="Logo Maven" id="imagen-maven">
                 <img src="toolsImage/Bootstrapsvg.png" alt="Logo Boostrap">
-                <img src="toolsImage/intellij2.png" alt="Logo Instagram"> 
+                <img src="toolsImage/intellij2.png" alt="Logo IntelliJ"> 
                 <img src="toolsImage/slack.png" alt="Logo slack">
                 <img src="toolsImage/vscode" alt="Logo vscode">
                 <img src="toolsImage/mamp.png" alt="Logo mamp">
@@ -451,7 +454,10 @@
                 <img src="toolsImage/macOS.png" alt="Logo MacOS">
                 <img src="toolsImage/unix.png" alt="Logo unix">
             </div>
+            
         </div>
+        <div id="texto-imagen" class="oculto">
+            </div>
     </section>
 
     <section id="certificados">
