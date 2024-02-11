@@ -472,14 +472,37 @@ button:hover {
 }
 
 
+.index-container {
+    width: 100%;
+    margin: 0 auto;
+}
 
+.blue-index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
 
+.blue-index li {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: lightblue; 
+    padding: 10px;
+    box-sizing: border-box;
+}
 
+@media (max-width: 768px) {
+    .index-container {
+        padding: 0 20px;
+    }
+    
+    .blue-index li {
+        flex-basis: calc(50% - 10px);
+    }
+}
 
-/* Estilos para dispositivos grandes (pantallas de escritorio) */
-/* ... tus estilos actuales ... */
-
-/* Estilos para dispositivos más pequeños (pantallas de móviles) */
 @media (max-width: 768px) {
 
     /* Redefine tus estilos aquí */
@@ -557,8 +580,3 @@ button:hover {
     }
 }
 
-.blue-index {
-    color: blue;
-    list-style-type: none;
-    padding-left: 0; 
-}
