@@ -389,34 +389,14 @@ button:hover {
     text-decoration: underline;
 }
 
-
-
-
-
 .idiomas {
     font-family: var(--font-family);
     padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
-
-/*
-.idioma {
-    background-color: #EAFFDA;
-    padding: 5%;
-    padding-bottom: 5%;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    border-radius: 10%;
-    margin: 2%;
-}
-*/
 .idioma h2 {
     font-weight: bold;
 }
-
-
-
-
 .blocsIdioma {
     display: flex;
     justify-content: space-between;
